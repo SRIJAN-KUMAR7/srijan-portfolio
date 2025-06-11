@@ -1,4 +1,4 @@
-import { RevealOnScroll } from "../RevealOnscroll.jsx";
+import { RevealOnScroll } from "../RevealOnScroll.jsx";
 import myImage from "../../assets/profile1.jpg";
 import Typewriter from "typewriter-effect";
 import React from "react";
