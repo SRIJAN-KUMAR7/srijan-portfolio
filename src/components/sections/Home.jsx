@@ -1,4 +1,4 @@
-import { RevealOnScroll } from "../RevealOnScroll.jsx";
+
 import myImage from "../../assets/profile1.jpg";
 import Typewriter from "typewriter-effect";
 import React from "react";
@@ -10,7 +10,7 @@ export const Home = () => {
       id="home"
       className="min-h-screen flex items-center justify-center relative bg-black text-white"
     >
-      <RevealOnScroll>
+      
         <div className="flex flex-col md:flex-row items-center justify-center px-8 md:px-16 gap-12 w-full">
   
   {/* Left-side: Image + Icons in vertical column */}
@@ -91,7 +91,6 @@ export const Home = () => {
             </div>
           </div>
         </div>
-      </RevealOnScroll>
     </section>
   );
 };
