@@ -5,7 +5,6 @@ import "./index.css"
 import { Navbar } from './components/Navbar'
 import { Home } from './components/sections/Home'
 
-import { RevealOnScroll } from "./components/RevealOnScroll";
 const App = () => {
   const[isLoaded,setIsLoaded]=useState(false)
   const[menuOpen,setMenuOpen]=useState(false)
