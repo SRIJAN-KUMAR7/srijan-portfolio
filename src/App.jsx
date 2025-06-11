@@ -4,7 +4,7 @@ import { MobileMenu } from './components/MobileMenu'
 import "./index.css"
 import { Navbar } from './components/Navbar'
 import { Home } from './components/sections/Home'
-import { RevealOnScroll } from './components/RevealOnscroll'
+
 import { About } from './components/sections/About'
 const App = () => {
   const[isLoaded,setIsLoaded]=useState(false)
@@ -16,7 +16,7 @@ const App = () => {
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>     
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Home/>
-        <About/>
+        
         </div>
     </>
   )
