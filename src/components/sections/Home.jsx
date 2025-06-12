@@ -36,7 +36,7 @@ export const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="text-2xl sm:text-3xl hover:text-blue-400 transition duration-200" />
+              <FaLinkedin className="text-2xl sm:text-3xl hover:text-blue-400 transition duration-200 transition hover:-translate-y-0.5 " />
             </a>
             <a
               href="https://www.instagram.com/srijan_72004/"
