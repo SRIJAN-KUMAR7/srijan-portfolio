@@ -3,10 +3,10 @@ import myImage from "../../assets/profile2.jpg";
 import Typewriter from "typewriter-effect";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
-export const Projects = () => {
+export const Contact = () => {
   return (
     <section
-      id="projects"
+      id="contact"
       className="min-h-screen flex items-center justify-center bg-black text-white px-4 pt-24"
     >
       <div className="flex flex-col md:flex-row items-center justify-around gap-3 w-full max-w-7xl">
