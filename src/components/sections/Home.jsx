@@ -14,7 +14,7 @@ export const Home = () => {
         {/* Profile Image & Social Icons - LEFT SIDE */}
         <div className="flex flex-col items-center gap-4">
           {/* Bigger Circular Image */}
-          <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-teal-500 animate-float shadow-lg">
+          <div className="w-52 h-52 sm:w-69 sm:h-69 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-teal-500 animate-float shadow-lg">
             <img
               src={myImage}
               alt="Profile"
@@ -71,7 +71,8 @@ export const Home = () => {
           <p className="text-gray-300 text-base sm:text-lg leading-relaxed text-justify">
             I'm a passionate full-stack developer dedicated to building clean,
             scalable, and high-performing web applications. 
-            <br></br>I strive to create solutions that not only work flawlessly but also provide an intuitive and enjoyable user experience.
+          
+            <br></br><p>I strive to create solutions that not only work flawlessly but also provide an intuitive and enjoyable user experience.</p>
           </p>
 
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-4">
