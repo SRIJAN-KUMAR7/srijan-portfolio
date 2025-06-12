@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../../assets/profile1.jpg";
+import myImage from "../../assets/profile2.jpg";
 import Typewriter from "typewriter-effect";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
@@ -18,7 +18,7 @@ export const Home = () => {
             <img
               src={myImage}
               alt="Profile"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover scale-105"
             />
           </div>
 
