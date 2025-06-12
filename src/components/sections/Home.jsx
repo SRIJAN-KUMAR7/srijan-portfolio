@@ -14,7 +14,7 @@ export const Home = () => {
         {/* Profile Image & Social Icons - LEFT SIDE */}
         <div className="flex flex-col items-center gap-4">
           {/* Bigger Circular Image */}
-          <div className="w-52 h-52 sm:w-69 sm:h-69 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-teal-500 animate-float shadow-lg">
+          <div className="w-52 h-52 sm:w-69 sm:h-69 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-blue-400 animate-float shadow-lg">
             <img
               src={myImage}
               alt="Profile"
@@ -29,21 +29,21 @@ export const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub className="text-2xl sm:text-3xl hover:text-blue-400 transition duration-200" />
+              <FaGithub className="text-2xl sm:text-3xl hover:text-blue-400 transition duration-200 hover:-translate-y-0.5 " />
             </a>
             <a
               href="https://www.linkedin.com/in/srijan-kumar-a780b9246/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="text-2xl sm:text-3xl hover:text-blue-400 transition duration-200 transition hover:-translate-y-0.5 " />
+              <FaLinkedin className="text-2xl sm:text-3xl hover:text-blue-400 transition duration-200 hover:-translate-y-0.5 " />
             </a>
             <a
               href="https://www.instagram.com/srijan_72004/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram className="text-2xl sm:text-3xl hover:text-blue-400 transition duration-200" />
+              <FaInstagram className="text-2xl sm:text-3xl hover:text-blue-400 transition duration-200 hover:-translate-y-0.5 " />
             </a>
           </div>
         </div>
