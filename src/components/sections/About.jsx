@@ -24,16 +24,6 @@ const topSkills = [
   { icon: <SiCss3 />, name: "CSS" },
   { icon: <SiPython />, name: "Python" },
 
- {
-    icon: (
-      <img
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-        alt="C++"
-        className="w-26 h-12 inline-block -ml-3.5"
-      />
-    ),
-    name: "C++"
-  },
 ];
 
 
