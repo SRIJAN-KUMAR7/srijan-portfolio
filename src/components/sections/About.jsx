@@ -9,6 +9,8 @@ import {
   SiPython,
   SiHtml5,
   SiCss3,
+  SiPostgresql,
+  SiExpress,
 } from "react-icons/si";
 
 const topSkills = [
@@ -16,10 +18,12 @@ const topSkills = [
   { icon: <SiTailwindcss />, name: "TailwindCSS" },
   { icon: <SiJavascript />, name: "JavaScript" },
   { icon: <SiNodedotjs />, name: "Node.js" },
+  { icon: <SiExpress />, name: "Express.js" },
   { icon: <SiMongodb />, name: "MongoDB" },
-  { icon: <SiHtml5 />, name: "HTML" },
+  { icon: <SiPostgresql />, name: "PostgreSQL" },
   { icon: <SiCss3 />, name: "CSS" },
   { icon: <SiPython />, name: "Python" },
+
  {
     icon: (
       <img
