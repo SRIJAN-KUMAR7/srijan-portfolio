@@ -1,102 +1,166 @@
 import React from "react";
-import myImage from "../../assets/profile2.jpg";
-import Typewriter from "typewriter-effect";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-
 export const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen flex items-center justify-center bg-black text-white px-4 pt-24"
+      className="min-h-screen flex items-center justify-center py-20"
     >
-      <div className="flex flex-col md:flex-row items-center justify-around gap-3 w-full max-w-7xl">
-        
-        {/* Profile Image & Social Icons - LEFT SIDE */}
-        <div className="flex flex-col items-center gap-4">
-          {/* Bigger Circular Image */}
-          <div className="w-52 h-52 sm:w-69 sm:h-69 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-blue-400 animate-float shadow-lg">
-            <img
-              src={myImage}
-              alt="Profile"
-              className="w-full h-full object-cover scale-105"
-            />
-          </div>
 
-          {/* Social Icons */}
-          <div className="flex space-x-6 mt-2 justify-center">
-            <a
-              href="https://github.com/SRIJAN-KUMAR7"
-              target="_blank"
-              rel="noopener noreferrer"
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+            {" "}
+            Featured Projects
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2"> Cloud Platform</h3>
+              <p className="text-gray-400 mb-4">
+                Scalable cloud infrastructure management with real-time
+                monitoring and automated scaling.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-between items-center">
+                <a
+                  href="#"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+            <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-blue-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
             >
-              <FaGithub className="text-2xl sm:text-3xl hover:text-blue-400 transition duration-200 hover:-translate-y-0.5 " />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/srijan-kumar-a780b9246/"
-              target="_blank"
-              rel="noopener noreferrer"
+              <h3 className="text-xl font-bold mb-2">AI Analytics Dashboard</h3>
+              <p className="text-gray-400 mb-4">
+                ML-powered data visualization platform with predictive analytics
+                and interactive reports.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="#"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+            <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-blue-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
             >
-              <FaLinkedin className="text-2xl sm:text-3xl hover:text-blue-400 transition duration-200 hover:-translate-y-0.5 " />
-            </a>
-            <a
-              href="https://www.instagram.com/srijan_72004/"
-              target="_blank"
-              rel="noopener noreferrer"
+              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <p className="text-gray-400 mb-4">
+                Full-stack e-commerce with modern UI, secure payment
+                integration, and customizable product inventory.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                  (tech) => (
+                    <span
+                      key={tech}
+                      className="
+                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                    >
+                      {tech}
+                    </span>
+                  )
+                )}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="#"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+            <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-blue-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
             >
-              <FaInstagram className="text-2xl sm:text-3xl hover:text-blue-400 transition duration-200 hover:-translate-y-0.5 " />
-            </a>
+              <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
+              <p className="text-gray-400 mb-4">
+                Scalable chat platform supporting real-time messaging, presence,
+                and group chat features.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center ">
+                <a
+                  href="#"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-
-        {/* Text Content - RIGHT SIDE */}
-        <div className="text-center md:text-left space-y-6 max-w-2xl ">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight">
-            Hi, I'm Srijan <span>Kumar</span>
-          </h1>
-
-          <div className="text-lg sm:text-xl md:text-3xl font-bold font-mono text-white">
-            <Typewriter
-              options={{
-                strings: [
-                  "#FULL STACK DEVELOPER",
-                  "#AI/ML ENTHUSIAST",
-                  "#OPEN SOURCE CONTRIBUTOR",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </div>
-
-          <p className="text-gray-300 text-base sm:text-lg leading-relaxed text-justify">
-            I'm a passionate full-stack developer dedicated to building clean,
-            scalable, and high-performing web applications. 
-          
-            <br></br><p>I strive to create solutions that not only work flawlessly but also provide an intuitive and enjoyable user experience.</p>
-          </p>
-
-          <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-4">
-            {/* <a
-              href="#about"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-semibold transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(34,197,94,0.4)]"
-            >
-              About
-            </a> */}
-            <a
-              href="#projects"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-semibold transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(34,197,94,0.4)]"
-            >
-              View Projects
-            </a>
-            <a
-              href="#contact"
-              className="border border-blue-500/60 text-blue-400 py-3 px-6 rounded font-semibold transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(34,197,94,0.2)] hover:bg-green-500/10"
-            >
-              Contact Me
-            </a>
-          </div>
-        </div>
-      </div>
+ 
     </section>
   );
 };

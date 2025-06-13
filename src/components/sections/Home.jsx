@@ -60,7 +60,7 @@ export const Home = () => {
                 strings: [
                   "#FULL STACK DEVELOPER",
                   "#AI/ML ENTHUSIAST",
-                  "MERN STACK DEVELOPER",
+                  "#MERN STACK DEVELOPER",
                   "#OPEN SOURCE CONTRIBUTOR",
                 ],
                 autoStart: true,

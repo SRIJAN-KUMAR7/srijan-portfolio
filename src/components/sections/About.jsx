@@ -7,6 +7,8 @@ import {
   SiNodedotjs,
   SiMongodb,
   SiPython,
+  SiHtml5,
+  SiCss3,
 } from "react-icons/si";
 
 const topSkills = [
@@ -15,6 +17,8 @@ const topSkills = [
   { icon: <SiJavascript />, name: "JavaScript" },
   { icon: <SiNodedotjs />, name: "Node.js" },
   { icon: <SiMongodb />, name: "MongoDB" },
+  { icon: <SiHtml5 />, name: "HTML" },
+  { icon: <SiCss3 />, name: "CSS" },
   { icon: <SiPython />, name: "Python" },
  {
     icon: (
