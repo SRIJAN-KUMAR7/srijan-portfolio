@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 
 const Model = () => {
-  const gltf = useGLTF("/models/space_station.glb"); 
+  const gltf = useGLTF("/models/space_station_compressed.glb"); 
   return <primitive object={gltf.scene} scale={0.5} />;
 };
 
