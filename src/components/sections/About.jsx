@@ -33,7 +33,7 @@ const educationData = [
     title: "B.Tech in Engineering & Computational Mechanics(ECM)",
     institution: "NIT Jamshedpur",
     year: "2023 - 2027",
-    cgpa:"Current CGPA: 8.17",
+    cgpa:"Current CGPA: 8.28",
     description:
       "Integrating core computer science and AI/ML techniques to solve real-world challenges at the intersection of software development and mechanical systems",
   },
