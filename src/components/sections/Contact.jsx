@@ -3,6 +3,9 @@ import emailjs from "@emailjs/browser";
 import React from "react";
 import { z } from "zod";
 import { ModelViewer } from "./ModelViewer";
+import.meta.env.VITE_SERVICE_ID
+import.meta.env.VITE_TEMPLATE_ID
+import.meta.env.VITE_PUBLIC_KEY
 
 // Email validation schema
 const contactSchema = z.object({
