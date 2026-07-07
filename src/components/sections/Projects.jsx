@@ -4,6 +4,7 @@ import p1 from "../../assets/p1.png"
 import p2 from "../../assets/p2.png"
 import p3 from "../../assets/P22.png"
 import p4 from "../../assets/p4.png"
+import cmdc from "../../assets/cmdc.png"
 
 export const Projects = () => {
   const projects = [
@@ -22,7 +23,15 @@ export const Projects = () => {
       src: p4 
     },
     {
-      title: "Real-Time Chat App-Chat Box",
+      title: "CMDC",
+      des: "Official site for NIT Jamshedpur’s Computational Mechanics & Design Club. Showcases student projects, research labs, events and recruitment info. Built with React + TailwindCSS and deployed on Vercel for sub-second loads.",
+      tech: ["React", "Tailwind CSS", "Vercel"],
+      go: "https://github.com/Sonu-Hansda/computational-mechanics-club",
+      liveUrl: "https://cmdc.in/",
+      src: cmdc
+    },
+    {
+      title: "Real-Time Chat App-Chat Box-Ripple",
       des: "A full-stack chat platform supporting real-time messaging, dynamic room creation, presence tracking. Built with React, Express, Socket.IO, and Websockets.",
       tech: ["Socket.IO", "Express", "React", "TailwindCSS"],
       go: "https://github.com/SRIJAN-KUMAR7/chat-app",
