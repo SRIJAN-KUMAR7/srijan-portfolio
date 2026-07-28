@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../../assets/profile2.jpg";
+import myImage from "../../assets/srijan_link.png";
 import Typewriter from "typewriter-effect";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
@@ -13,13 +13,12 @@ export const Home = () => {
       <div className="flex flex-col md:flex-row items-center justify-around gap-3 w-full max-w-7xl">
         
         {/* Profile Image & Social Icons - LEFT SIDE */}
-        <div className="flex flex-col items-center gap-4">
-          {/* Bigger Circular Image */}
+        <div className="flex flex-col items-center gap-4">      
           <div className="w-52 h-52 sm:w-69 sm:h-69 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-blue-400 animate-float shadow-lg">
             <img
               src={myImage}
               alt="Profile"
-              className="w-full h-full object-cover scale-105"
+              className="w-full h-full object-cover scale-105 grayscale"
             />
           </div>
 
