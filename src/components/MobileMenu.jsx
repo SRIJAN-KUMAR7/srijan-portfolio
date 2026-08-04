@@ -7,13 +7,12 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
       }`}
     >
-      {/* Backdrop */}
+    
       <div
         className="flex-1 bg-black/50 backdrop-blur-sm"
         onClick={() => setMenuOpen(false)}
       ></div>
 
-      {/* Sliding Menu */}
       <div
         className={`w-[40%] max-w-sm bg-[#111] shadow-lg transform transition-transform duration-300 ease-in-out
         ${menuOpen ? "translate-x-0" : "translate-x-full"}`}
