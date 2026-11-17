@@ -3,11 +3,10 @@ import React from "react";
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div
-      className={`fixed inset-0 z-40 flex transition-opacity duration-300 ${
-        menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-      }`}
+      className={`fixed inset-0 z-40 flex transition-opacity duration-300 ${menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+        }`}
     >
-    
+
       <div
         className="flex-1 bg-black/50 backdrop-blur-sm"
         onClick={() => setMenuOpen(false)}
@@ -35,7 +34,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
             Projects
           </a>
           <a href="#contact" onClick={() => setMenuOpen(false)} className="text-white text-xl">
-            Contact
+            ContactMe
           </a>
         </div>
       </div>
