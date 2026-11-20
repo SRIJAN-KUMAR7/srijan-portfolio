@@ -73,7 +73,8 @@ export const Home = () => {
             I'm a passionate full-stack developer dedicated to building clean,
             scalable, and high-performing web applications. 
           
-            <br></br><p>I strive to create solutions that not only work flawlessly but also provide an intuitive and enjoyable user experience.</p>
+            <br />
+            I strive to create solutions that not only work flawlessly but also provide an intuitive and enjoyable user experience.
           </p>
 
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-4">
